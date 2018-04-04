@@ -1,24 +1,3 @@
-# README
+# Jobs Tracker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is an app to track progress of a background job. After running the job, a modal with progress is shown. Once it’s completed, the modal disappears. React manages the state of the modal. Sidekiq is used to run background jobs.
